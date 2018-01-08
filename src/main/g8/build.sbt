@@ -20,7 +20,7 @@ lazy val `$name$` = (project in file("."))
 
     schemaDependencies += "com.github.dnvriend" % "Person" % "1",
     schemaDependencies += "com.github.dnvriend" % "Order" % "1",
-)
+).enablePlugins(SamSchemaPlugin)
 
   
 

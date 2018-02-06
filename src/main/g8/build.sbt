@@ -1,9 +1,9 @@
 
 lazy val `$name$` = (project in file("."))
   .settings(
-    libraryDependencies += "com.github.dnvriend" %% "sam-annotations" % "1.0.18",
-    libraryDependencies += "com.github.dnvriend" %% "sam-serialization" % "1.0.18",
-    libraryDependencies += "com.github.dnvriend" %% "sam-lambda" % "1.0.18",
+    libraryDependencies += "com.github.dnvriend" %% "sam-annotations" % "1.0.20",
+    libraryDependencies += "com.github.dnvriend" %% "sam-serialization" % "1.0.20",
+    libraryDependencies += "com.github.dnvriend" %% "sam-lambda" % "1.0.20",
     libraryDependencies += "com.amazonaws" % "aws-java-sdk" % "1.11.257",
     libraryDependencies += "com.amazonaws" % "aws-lambda-java-core" % "1.2.0",
     resolvers += Resolver.bintrayRepo("dnvriend", "maven"),
